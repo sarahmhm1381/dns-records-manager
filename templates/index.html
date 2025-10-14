@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mongoDB Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>DNS SERVER</h1>
+    <hr>
+    <div class="content">
+        <form method="POST">
+            <p>
+                <b><label for="dns">Add your domain name</label></b>
+            </p>
+            <p>
+                <input type="text" name="dns" required placeholder="Add your domain name">
+            </p>
+            <p>
+                <b><label for="ip">Add your ip</label></b>
+            </p>
+            <p>
+                <input type="text" name="ip" required placeholder="Add your ip">
+            </p>
+            <button type="submit">Submit</button>              
+        </form>
+        <p class="query"><a href="{{ url_for('search') }}">search by domains</a></p>
+        <p class="query"><a href="{{ url_for('search_keyword') }}">search keyword</a></p>
+        <p class="query"><a href="{{ url_for('submitted') }}">Last submissions</a></p> 
+        <p class="query"><a href="{{ url_for('submission_number') }}">Number of submitted DNS</a></p>
+        <p class="query"><a href="{{ url_for('top_level') }}">Top level domains</a></p>  
+        <p class="query"><a href="{{ url_for('history') }}">History of changes</a></p>  
+    </div>
+    <!-- Fetching DNS documents -->
+    {% for d in dns_server %}
+    <div class="dns">
+        <p class="dns-value"><span>domain:</span> {{ d['dns'] }}</p>
+        <p class="ip-value"><span>ip:</span> {{ d['ip'] }}</p>
+        <div class="operations">
+            <form method="POST" action="{{ url_for('delete', id=d['_id']) }}">
+                <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete this entry?')" />  
+            </form>
+            <p class="edit-btn"><a href="{{ url_for('update', id=d['_id'], dns=d['dns'], ip=d['ip']) }}">Edit</a></p>
+        </div>
+    </div>
+    {% endfor %}
+</body>
+</html>

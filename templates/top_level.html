@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Level Domains</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Group by Top Level Domains</h1>
+    <div class="top-level-domains">
+        {% for domain in top_level_domains %}
+        <h2>{{ domain['_id'] }}</h2>
+        <ul>
+            {% for record in domain['dns_records'] %}
+            <li>{{ record['dns'] }} - {{ record['ip'] }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</body>
+</html>

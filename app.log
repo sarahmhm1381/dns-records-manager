@@ -1,0 +1,205 @@
+2024-04-20 01:17:32,111 WARNING:  * Debugger is active!
+2024-04-20 01:17:32,127 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 01:17:34,985 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:34] "GET / HTTP/1.1" 200 -
+2024-04-20 01:17:35,016 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:35] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:17:35,128 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:17:39,376 INFO: New DNS record added - DNS: grg, IP: ggr, Timestamp: 2024-04-20 01:17:39.376016
+2024-04-20 01:17:39,377 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-04-20 01:17:39,402 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:39] "GET / HTTP/1.1" 200 -
+2024-04-20 01:17:39,436 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:39] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:17:39,436 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:17:43,321 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:43] "[32mPOST /6622e67b12cd4609bdbb07a4/delete/ HTTP/1.1[0m" 302 -
+2024-04-20 01:17:43,359 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:43] "GET / HTTP/1.1" 200 -
+2024-04-20 01:17:43,396 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:43] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:17:43,397 INFO: 127.0.0.1 - - [20/Apr/2024 01:17:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:18:54,870 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 01:18:54,870 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 01:18:54,877 INFO:  * Restarting with stat
+2024-04-20 01:18:55,715 WARNING:  * Debugger is active!
+2024-04-20 01:18:55,723 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 01:19:00,429 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:00] "GET / HTTP/1.1" 200 -
+2024-04-20 01:19:00,459 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:00] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:19:00,552 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:19:05,325 INFO: New DNS record added - DNS: fegr, IP: grere, Timestamp: 2024-04-20 01:19:05.325439
+2024-04-20 01:19:05,326 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-04-20 01:19:05,357 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:05] "GET / HTTP/1.1" 200 -
+2024-04-20 01:19:05,388 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:05] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:19:05,388 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:19:14,444 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:14] "[32mPOST /6622e6d173a278004719fad9/delete/ HTTP/1.1[0m" 302 -
+2024-04-20 01:19:14,469 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:14] "GET / HTTP/1.1" 200 -
+2024-04-20 01:19:14,513 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:14] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:19:14,515 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:19:20,375 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:20] "[32mPOST /6622e57fe4754a2f58b80ebf/delete/ HTTP/1.1[0m" 302 -
+2024-04-20 01:19:20,410 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:20] "GET / HTTP/1.1" 200 -
+2024-04-20 01:19:20,445 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:20] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2024-04-20 01:19:20,445 INFO: 127.0.0.1 - - [20/Apr/2024 01:19:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:31:36,297 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 01:31:36,298 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 01:31:36,309 INFO:  * Restarting with stat
+2024-04-20 01:31:37,317 WARNING:  * Debugger is active!
+2024-04-20 01:31:37,330 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 01:31:39,345 INFO: 127.0.0.1 - - [20/Apr/2024 01:31:39] "GET / HTTP/1.1" 200 -
+2024-04-20 01:31:39,499 INFO: 127.0.0.1 - - [20/Apr/2024 01:31:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:31:42,380 INFO: 127.0.0.1 - - [20/Apr/2024 01:31:42] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:31:42,432 INFO: 127.0.0.1 - - [20/Apr/2024 01:31:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:35:07,624 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:07] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:35:07,675 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:35:30,271 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:30] "GET /search HTTP/1.1" 200 -
+2024-04-20 01:35:30,327 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:35:37,303 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:37] "POST /search HTTP/1.1" 200 -
+2024-04-20 01:35:37,327 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:35:41,271 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:41] "POST /search HTTP/1.1" 200 -
+2024-04-20 01:35:41,308 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:35:49,866 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:49] "GET /search HTTP/1.1" 200 -
+2024-04-20 01:35:51,764 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:51] "GET /searchKeyword HTTP/1.1" 200 -
+2024-04-20 01:35:51,819 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:35:54,955 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:54] "GET /submitted HTTP/1.1" 200 -
+2024-04-20 01:35:54,997 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:35:59,072 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:59] "POST /submitted HTTP/1.1" 200 -
+2024-04-20 01:35:59,101 INFO: 127.0.0.1 - - [20/Apr/2024 01:35:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:36:02,300 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:02] "GET /submitted HTTP/1.1" 200 -
+2024-04-20 01:36:04,683 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:04] "GET /submission_number HTTP/1.1" 200 -
+2024-04-20 01:36:04,729 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:36:33,376 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:33] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:36:33,420 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:36:59,039 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:59] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:36:59,087 INFO: 127.0.0.1 - - [20/Apr/2024 01:36:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:37:12,972 INFO: 127.0.0.1 - - [20/Apr/2024 01:37:12] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:37:13,023 INFO: 127.0.0.1 - - [20/Apr/2024 01:37:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:37:36,515 INFO: 127.0.0.1 - - [20/Apr/2024 01:37:36] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:37:36,575 INFO: 127.0.0.1 - - [20/Apr/2024 01:37:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:38:52,844 INFO: 127.0.0.1 - - [20/Apr/2024 01:38:52] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:38:52,892 INFO: 127.0.0.1 - - [20/Apr/2024 01:38:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:39:10,030 INFO: 127.0.0.1 - - [20/Apr/2024 01:39:10] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:39:10,098 INFO: 127.0.0.1 - - [20/Apr/2024 01:39:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:40:13,840 INFO: 127.0.0.1 - - [20/Apr/2024 01:40:13] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:40:13,880 INFO: 127.0.0.1 - - [20/Apr/2024 01:40:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:40:43,743 INFO: 127.0.0.1 - - [20/Apr/2024 01:40:43] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:40:43,780 INFO: 127.0.0.1 - - [20/Apr/2024 01:40:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:41:10,082 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:10] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:41:10,131 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-04-20 01:41:46,935 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:46] "GET /submission_number HTTP/1.1" 200 -
+2024-04-20 01:41:46,983 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:41:49,932 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:49] "GET /submitted HTTP/1.1" 200 -
+2024-04-20 01:41:49,974 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:41:52,610 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:52] "POST /submitted HTTP/1.1" 200 -
+2024-04-20 01:41:52,645 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 01:41:53,816 INFO: 127.0.0.1 - - [20/Apr/2024 01:41:53] "GET /submitted HTTP/1.1" 200 -
+2024-04-20 01:42:05,569 INFO: 127.0.0.1 - - [20/Apr/2024 01:42:05] "GET /top_level HTTP/1.1" 200 -
+2024-04-20 01:42:05,614 INFO: 127.0.0.1 - - [20/Apr/2024 01:42:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-04-20 11:47:59,693 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:47:59,694 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:47:59,704 INFO:  * Restarting with stat
+2024-04-20 11:48:00,993 WARNING:  * Debugger is active!
+2024-04-20 11:48:01,010 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:48:06,470 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:48:06,471 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:48:06,480 INFO:  * Restarting with stat
+2024-04-20 11:48:07,897 WARNING:  * Debugger is active!
+2024-04-20 11:48:07,922 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:48:24,144 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:48:24,144 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:48:24,152 INFO:  * Restarting with stat
+2024-04-20 11:48:24,928 WARNING:  * Debugger is active!
+2024-04-20 11:48:24,939 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:48:57,499 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:48:57,499 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:48:57,510 INFO:  * Restarting with stat
+2024-04-20 11:48:58,262 WARNING:  * Debugger is active!
+2024-04-20 11:48:58,269 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:49:09,856 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:49:09,856 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:49:09,867 INFO:  * Restarting with stat
+2024-04-20 11:49:10,615 WARNING:  * Debugger is active!
+2024-04-20 11:49:10,628 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:49:23,521 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:49:23,521 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:49:23,530 INFO:  * Restarting with stat
+2024-04-20 11:49:24,298 WARNING:  * Debugger is active!
+2024-04-20 11:49:24,306 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:52:19,790 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:52:19,791 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:52:19,802 INFO:  * Restarting with stat
+2024-04-20 11:52:20,727 WARNING:  * Debugger is active!
+2024-04-20 11:52:20,734 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:52:29,324 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:52:29,324 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:52:29,331 INFO:  * Restarting with stat
+2024-04-20 11:52:30,139 WARNING:  * Debugger is active!
+2024-04-20 11:52:30,146 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:53:22,701 INFO:  * Detected change in 'd:\\F\\university\\term 8\\database\\dns\\app.py', reloading
+2024-04-20 11:53:23,143 INFO:  * Restarting with stat
+2024-04-20 11:53:24,023 WARNING:  * Debugger is active!
+2024-04-20 11:53:24,032 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:53:36,037 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:53:36,037 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:53:36,043 INFO:  * Restarting with stat
+2024-04-20 11:53:36,618 WARNING:  * Debugger is active!
+2024-04-20 11:53:36,625 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 11:54:39,491 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 11:54:39,492 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 11:54:39,505 INFO:  * Restarting with stat
+2024-04-20 11:54:40,542 WARNING:  * Debugger is active!
+2024-04-20 11:54:40,553 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:10:40,104 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 12:10:40,105 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 12:10:40,115 INFO:  * Restarting with stat
+2024-04-20 12:10:41,108 WARNING:  * Debugger is active!
+2024-04-20 12:10:41,120 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:10:48,844 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 12:10:48,844 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 12:10:48,852 INFO:  * Restarting with stat
+2024-04-20 12:10:49,618 WARNING:  * Debugger is active!
+2024-04-20 12:10:49,628 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:12:47,320 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 12:12:47,321 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 12:12:47,325 INFO:  * Restarting with stat
+2024-04-20 12:13:38,656 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 12:13:38,657 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 12:13:38,661 INFO:  * Restarting with stat
+2024-04-20 12:13:39,328 WARNING:  * Debugger is active!
+2024-04-20 12:13:39,335 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:25:30,781 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 12:25:30,782 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 12:25:30,791 INFO:  * Restarting with stat
+2024-04-20 12:25:31,779 WARNING:  * Debugger is active!
+2024-04-20 12:25:31,791 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:26:04,702 INFO:  * Detected change in 'd:\\F\\university\\term 8\\database\\dns\\app.py', reloading
+2024-04-20 12:26:05,811 INFO:  * Restarting with stat
+2024-04-20 12:28:02,325 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 12:28:02,326 INFO: [33mPress CTRL+C to quit[0m
+2024-04-20 12:28:02,333 INFO:  * Restarting with stat
+2024-04-20 12:28:03,108 WARNING:  * Debugger is active!
+2024-04-20 12:28:03,117 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:28:24,784 INFO:  * Detected change in 'd:\\F\\university\\term 8\\database\\dns\\app.py', reloading
+2024-04-20 12:28:25,267 INFO:  * Restarting with stat
+2024-04-20 12:28:26,131 WARNING:  * Debugger is active!
+2024-04-20 12:28:26,138 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:29:01,211 INFO:  * Detected change in 'd:\\F\\university\\term 8\\database\\dns\\app.py', reloading
+2024-04-20 12:29:01,754 INFO:  * Restarting with stat
+2024-04-20 12:29:02,586 WARNING:  * Debugger is active!
+2024-04-20 12:29:02,593 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:30:19,764 INFO:  * Detected change in 'd:\\F\\university\\term 8\\database\\dns\\app.py', reloading
+2024-04-20 12:30:19,827 INFO:  * Restarting with stat
+2024-04-20 12:30:20,574 WARNING:  * Debugger is active!
+2024-04-20 12:30:20,580 INFO:  * Debugger PIN: 122-649-750
+2024-04-20 12:30:45,356 INFO:  * Detected change in 'd:\\F\\university\\term 8\\database\\dns\\app.py', reloading
+2024-04-20 12:30:45,773 INFO:  * Restarting with stat

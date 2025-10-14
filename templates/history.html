@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of changes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>History of changes</h1>
+    <div class="history">
+        <div class="deleted-entries">
+            <h2>Deleted DNS Entries:</h2>
+            {% for entry in deleted_entries %}
+            <div class="entry">
+                <p><b>Domain:</b> {{ entry.dns }}</p>
+                <p><b>IP Address:</b> {{ entry.ip }}</p>
+                <p><b>Deleted At:</b> {{ entry.deleted_at }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="edited-entries">
+            <h2>Edited DNS Entries:</h2>
+            {% for entry in edited_entries %}
+            <div class="entry">
+                <div class="before-edit">
+                    <p><b><span>Before Edit:</span></b></p>
+                    <p><b>Old Domain:</b> {{ entry.old_dns }}</p>
+                    <p><b>Old IP:</b> {{ entry.old_ip }}</p>
+                </div>
+                <div class="after-edit">
+                    <p><b><span>After Edit:</span></b></p>
+                    <p><b>New Domain:</b> {{ entry.updated_dns }}</p>
+                    <p><b>New IP:</b> {{ entry.updated_ip }}</p>
+                </div>
+                <p><b>Edited At:</b> {{ entry.edited_at }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

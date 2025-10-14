@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mongoDB Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <input type="hidden" id="id" name="id" value="{{ id }}">
+    <h1>Edit DNS Entry</h1>
+    <hr>
+    <div class="content">
+        <form method="POST" action="{{ url_for('update', id=id) }}" >
+            <p>
+                <b><label for="edit-dns">Edit domain name</label></b> 
+            </p>
+            <p>
+                <input type="text" id="edit-dns" name="edit-dns" required placeholder="" value="{{ old_dns }}">
+            </p>
+            <p>
+                <b><label for="edit-ip">Edit ip</label></b>
+            </p>
+            <p>
+                <input type="text" id="edit-ip" name="edit-ip" required placeholder="" value="{{ old_ip }}">
+            </p>            
+            <button type="submit">Save</button>
+        </form> 
+    </div>
+</body>
+</html>

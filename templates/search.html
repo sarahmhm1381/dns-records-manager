@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search by Domain</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Search by Domain</h1>
+    <div class="search">
+        <form method="POST">
+            <div class="search-input">
+                <input type="text" name="domain" placeholder="Enter domain" required>
+            </div>
+            <div class="search-button">
+                <button type="submit">Search</button>  
+            </div>
+        </form>
+    </div>
+
+    {% if search_results %}
+    <h2 class="search-result-text">Search Results for Domain starting with "{{ domain }}" :</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Domain</th>
+                <th>IP</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in search_results %}
+            <tr>
+                <td>{{ result['dns'] }}</td>
+                <td>{{ result['ip'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <h2 class="search-result-text">No results found for Domain starting with "{{ domain }}".</h2>
+    {% endif %}
+</body>
+</html>

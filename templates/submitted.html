@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Submissions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Latest Submissions</h1>
+    <form method="POST">
+        <div class="submission">
+            <label for="limit">Enter the number of latest submissions to display:</label>
+            <input type="number" id="limit" name="limit" min="1" value="{{ request.form.limit | default('1') }}">
+            <button type="submit" class="button">Submit</button>            
+        </div>
+    </form>
+    
+    {% if latest_submissions %}
+    <table>
+        <thead>
+            <tr>
+                <th>Domain</th>
+                <th>IP</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for submission in latest_submissions %}
+            <tr>
+                <td>{{ submission.dns }}</td>
+                <td>{{ submission.ip }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</body>
+</html>
