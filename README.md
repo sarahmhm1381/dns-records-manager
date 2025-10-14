@@ -38,6 +38,7 @@ The system also provides analytical aggregation on domain frequency and top-leve
 ```bash
 git clone https://github.com/sarahmhm1381/dns-records-manager.git
 cd dns-records-manager
+```
 
 ### 2️⃣ Create a virtual environment
 python -m venv env
