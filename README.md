@@ -41,14 +41,20 @@ cd dns-records-manager
 ```
 
 ### 2️⃣ Create a virtual environment
+```bash
 python -m venv env
 source env/bin/activate      # (Linux/Mac)
 env\Scripts\activate         # (Windows)
+```
 
-###3️⃣ Install dependencies
+### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Run the app
+```bash
 python app.py
+```
 
 
